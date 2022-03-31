@@ -1,0 +1,80 @@
+
+body {
+  background-color: grey;
+}
+.main-head {
+  color: #fffff;
+  text-align: left;
+  font-size: 70px;
+  line-height: 60px;
+  padding-left: 120px;
+  padding-top: 20px;
+  font-family: 'Jua', sans-serif;
+}
+.main-paragraph1 {
+  color: #fffff;
+  text-align: left;
+  font-size: 23px;
+  line-height: 10px;
+  padding-left: 120px;
+  font-family: 'Jua', sans-serif;
+}
+.main-paragraph2 {
+  color: #fffff;
+  text-align: left;
+  font-size: 12px;
+  padding-left: 120px;
+  font-family: 'Jua', sans-serif;
+}
+.main-link {
+  color: #fffff;
+  text-align: left;
+  font-size: 25px;
+  line-height: 10px;
+  font-family: 'Jua', sans-serif;
+  text-decoration: none;
+}
+#main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.line {
+  border-bottom: 2px solid orange;
+  margin: 70px;
+}
+.page2-text {
+  color: #fffff;
+  text-align: center;
+  font-size: 50px;
+  line-height: 10px;
+  font-family: 'Jua', sans-sans-serif;
+  /*width: 665px;
+  margin-bottom: 50px;*/
+}
+.seoulmap {
+  width: 500px;
+  height: 500px;
+}
+.page2-population1 {
+  color: #fffff;
+  text-align: left;
+  font-size: 20px;
+  line-height: 10px;
+  font-family: 'Jua', sans-sans-serif;
+}
+.page2-population2 {
+  color: #fffff;
+  text-align: left;
+  font-size: 17px;
+  line-height: 10px;
+  font-family: 'Jua', sans-sans-serif;
+}
+.page2-table {
+  color: #fffff;
+  font-size: 15px;
+  font-family: 'Jua', sans-sans-serif;
+}
+#page2-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
